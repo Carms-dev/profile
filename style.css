@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu:700&display=swap');
+
+body {
+  background-color: rgb(215, 216, 207);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(13, 56, 63);
+  font-size: 16px;
+  /*line-height:1px;*/
+}
+
+h1, h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(8, 36, 41);
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-white {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 5px 10px grey;
+  width: 800px;
+  margin: 24px auto;
+  text-align: center;
+  padding: 25px;
+}
+
+.btn-green{
+  background-color: rgb(0, 160, 121);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.avatar-small {
+  width:160px;
+  height:160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+.icon {
+  margin: 0 16px;
+  font-size: 48px;
+  color: #e6e6e6;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  color: rgb(0, 160, 121);
+}
+
+.bottom-more-pad {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
